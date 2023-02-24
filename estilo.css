@@ -271,11 +271,29 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .visualbasic{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s visualbasic forwards;
 }
-@keyframes javascript {
+@keyframes visualbasic {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .c{
+    width: 0%;
+    animation: 2s c forwards;
+}
+@keyframes c {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+}
+@keyframes java {
     0%{width: 0%;}
     100%{width: 100%;}
 }
@@ -289,29 +307,83 @@ html{
     100%{width: 100%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .sqlserver{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s sqlserver forwards;
 }
-@keyframes photoshop {
+@keyframes sqlserver {
     0%{width: 0%;}
     100%{width: 100%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .mysql{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s mysql forwards;
 }
-@keyframes wordpress {
+@keyframes mysql {
     0%{width: 0%;}
     100%{width: 100%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .soportetecnicotres{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s soportetecnicotres forwards;
 }
-@keyframes drupal {
+@keyframes soportetecnicotres {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .soportetecnicoapc{
+    width: 0%;
+    animation: 2s soportetecnicoapc forwards;
+}
+@keyframes soportetecnicoapc {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .ad{
+    width: 0%;
+    animation: 2s ad forwards;
+}
+@keyframes ad {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .vpn{
+    width: 0%;
+    animation: 2s vpn forwards;
+}
+@keyframes vpn {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .bk{
+    width: 0%;
+    animation: 2s bk forwards;
+}
+@keyframes bk {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .redes{
+    width: 0%;
+    animation: 2s redes forwards;
+}
+@keyframes redes {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .servidores{
+    width: 0%;
+    animation: 2s servidores forwards;
+}
+@keyframes servidores {
     0%{width: 0%;}
     100%{width: 100%;}
 }
@@ -325,20 +397,20 @@ html{
     100%{width: 100%;}
 }
 
-.skills .skill .trabajo{
+.skills .skill .equipo{
     width: 0%;
-    animation: 2s trabajo forwards;
+    animation: 2s equipo forwards;
 }
-@keyframes trabajo {
+@keyframes equipo {
     0%{width: 0%;}
     100%{width: 100%;}
 }
 
-.skills .skill .creatividad{
+.skills .skill .responsable{
     width: 0%;
-    animation: 2s creatividad forwards;
+    animation: 2s responsable forwards;
 }
-@keyframes creatividad {
+@keyframes responsable {
     0%{width: 0%;}
     100%{width: 100%;}
 }
@@ -352,23 +424,25 @@ html{
     100%{width: 100%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .porblemas{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s porblemas forwards;
 }
-@keyframes proyect {
+@keyframes porblemas {
     0%{width: 0%;}
     100%{width: 100%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .cambio{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s cambio forwards;
 }
-@keyframes proyect {
+@keyframes cambio {
     0%{width: 0%;}
     100%{width: 100%;}
 }
+
+
 
 
 

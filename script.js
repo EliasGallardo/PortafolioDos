@@ -21,16 +21,26 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("javascript");
-        habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("photoshop");
-        habilidades[3].classList.add("wordpress");
-        habilidades[4].classList.add("drupal");
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("proyect");
+        habilidades[0].classList.add("visualbasic");
+        habilidades[1].classList.add("c");
+        habilidades[2].classList.add("java");
+        habilidades[3].classList.add("htmlcss");
+        habilidades[4].classList.add("sqlserver");
+        habilidades[5].classList.add("mysql");
+        habilidades[6].classList.add("soportetecnicotres");
+        habilidades[7].classList.add("soportetecnicoapc");
+        habilidades[8].classList.add("ad");
+        habilidades[9].classList.add("vpn");
+
+        habilidades[10].classList.add("bk");
+        habilidades[11].classList.add("redes");
+        habilidades[12].classList.add("servidores");
+        habilidades[13].classList.add("comunicacion");
+        habilidades[14].classList.add("equipo");
+        habilidades[15].classList.add("responsable");
+        habilidades[16].classList.add("dedicacion");
+        habilidades[17].classList.add("porblemas");
+        habilidades[18].classList.add("cambio");
     }
 }
 
