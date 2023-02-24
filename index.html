@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Elias...</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/prueba.jpeg" alt="">
+            </div>
+            <h1>Elias Daniel Gallardo</h1></br>
+            <h2>Software Developer - Humano - Telencefalo Estudiante - Baterista - Policia - Amigo.</h2><br> 
+            <h2> En los ratos libres codeo, hago curso de programacion y escucho Podcasts.</h2><br>
+            <div class="redes">
+                <a href="https://www.facebook.com/elias.gallardo.12"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/EliasGallardo15"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/elias-daniel-gallardo"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/elias_27"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Mi Nombre es Elias,</span><br>Soy Software Developer, curso mis ultimas tres materias de Tercer año de la carrera de Analista de Sistemas. 
+                Paralelamente realizo cursos de progrmacion en forma autodidacta.<br><br>
+                Desde Noviembre del año 2019 trabajo en la Policía de la Prov. de Córdoba en el área de Redes y Seguridad informática. Soy una persona proactiva, organizada y responsable, con buenas relaciones interpersonales. Siempre tengo la mejor predisposición para realizar mis tareas.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            351-3581646
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            eliasdanielgallardo@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Av. Alfonsina Storni N°553 B°Liceo 1° - Cordoba Cap.
+                        </li>
+                    </ul>
+                </div>
+                <!--aca van mis intereses-->
+            </div>
+
+                <button>
+                    Descargar CV <a href="https://www.linkedin.com/posts/elias-daniel-gallardo_activity-7034991846825046016-pynC?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-download"></i></a>
+                   <span class="overlay"></span>
+                   
+                </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>COMPETENCIAS</h3>
+                    <div class="skill">
+                        <span>Visual Basic</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>C#</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>Java</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>SQL Server</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>MySql</span>
+                       
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>Soporte Tecnico N° 3</span>
+                        
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="skill">
+                        <span>Soporte Tecnico a Computadoras</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>Active Directory</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>Gestion de VPN</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>Adminitracion de BackUp</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>Mantenimiento de infraestructura de red</span>
+                        
+                    </div>
+                    <br>
+                    <div class="skill">
+                        <span>Adminitracion y Mantenimiento de Servidores de Windows</span> 
+                        
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>APTITUDES</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsable</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Capacidad para resolver problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptacion al cambio</span>
+                        <div class="barra-skill">
+                          <div class="progreso"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2> 
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Formacion Academica y Cursos</h3>
+                    <div class="item izq">
+                        <h4>Analista en Sistemas</h4>
+                        <span class="casa">Colegio Universitario IES</span>
+                        <span class="fecha">2012 - ACTUALIDAD </span>
+                        <p>Cursando las ultmas tres materias de la carrera</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico en Reparacion, Mantenimiento y Actualizacion de Computadoras</h4>
+                        <span class="casa">Instituto AES</span>
+                        <span class="fecha">2011</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Configuracion y Adminitracion de Redes Informaticas</h4>
+                        <span class="casa">Instituto AES</span>
+                        <span class="fecha">2011</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Cisco CCNA Nivel 1 V7</h4>
+                        <span class="casa">Academia Cisco/Oracle | Colegio Taborin</span>
+                        <span class="fecha">2020</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Seguridad en Redes</h4>
+                        <span class="casa">Consejo Profesional de Ciencias Informaticas</span>
+                        <span class="fecha">2020</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Cisco CCNA Nivel 2 V7</h4>
+                        <span class="casa">Academia Cisco/Oracle | Colegio Taborin</span>
+                        <span class="fecha">2021</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de herramientas Tecnológicas
+                            para la tarea de Seguridad Informática
+                            y de Sistemas</h4>
+                        <span class="casa">Policía de la Prov. de Córdoba</span>
+                        <span class="fecha">2022</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Introducción a la Programación</h4>
+                        <span class="casa">OpenBootcamp</span>
+                        <span class="fecha">2022</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Java para Principiantes y orientado a
+                            POO</h4>
+                        <span class="casa">TodoCode</span>
+                        <span class="fecha">2022</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Introducción a GIT y GITHUB</h4>
+                        <span class="casa">TodoCode</span>
+                        <span class="fecha">2022</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Introducción a las bases de Datos con
+                            MySql</h4>
+                        <span class="casa">TodoCode</span>
+                        <span class="fecha">2022</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de C# [.NET + SQL] y [WEB .NET]</h4>
+                        <span class="casa">MaxiPrograma</span>
+                        <span class="fecha">CURSANDO ACTUALMENTE</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrolladpr Java Inicial</h4>
+                        <span class="casa">Argentina Programa 4.0</span>
+                        <span class="fecha">CURSANDO ACTUALMENTE</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Responsable de Area</h4>
+                        <span class="casa">Policia de Cordoba</span>
+                        <span class="fecha">2019 - ACTUALIDAD</span>
+                        <p>Área de Redes y Seguridad Informática en la Policía de la Prov.
+                            de Córdoba</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Tecnico en PC</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2011 - ACTUALIDAD</span>
+                        <p>Soporte de PC de escritorio y Notebook</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/proyectos/VPrincipal.png" alt="">
+                    <div class="overlay">
+                        <h3>Tienda de Ropa - Niki Indumentaria</h3>
+                        <p>Sistema programdo en VB - Con BD en Access</p>
+                        <a href="https://github.com/EliasGallardo/winform_appTiendaRopa.git"><i class="fa-sharp fa-solid fa-circle-down"></i></a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/proyectos/ClonGoogle.png" alt="">
+                    <div class="overlay">
+                        <h3>Pagina Web</h3>
+                        <p>Clon Google - HTTML - CSS</p>
+                        <a href="https://github.com/EliasGallardo/Html-Css.git"><i class="fa-sharp fa-solid fa-circle-down"></i></a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>App Disco</h3>
+                        <p>Sistema programdo en C# - Todos los metodos con BD en Sql Server</p>
+                        <a href="https://github.com/EliasGallardo/winform_appDisco.git"><i class="fa-sharp fa-solid fa-circle-down"></i></a>
+                    </div>
+                </div>
+
+            <!--  <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+            </div>-->  
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+             <!--   <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>-->
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Av. Alfonsina Storni N° 553, Cordoba, Argenitna
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Celular: 351-3581646 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: eliasdanielgallardo@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/elias.gallardo.12"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/EliasGallardo15"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/elias-daniel-gallardo"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/elias_27/"><i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
