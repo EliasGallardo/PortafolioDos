@@ -196,6 +196,11 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+    text-decoration: none;
+}
+
+#gallin{
+    color: wheat;
 }
 .sobremi button .overlay{
     position: absolute;
@@ -206,9 +211,11 @@ html{
     background-color: #1CB698;
     z-index: -1;
     transition: 1s;
+    
 }
 .sobremi button:hover .overlay{
     width: 100%;
+    
 }
 /* SECCION S K I L L S */
 .skills{
@@ -639,6 +646,7 @@ html{
     width: 50%;
     padding: 10px;
     position: relative;
+    
 }
 .contacto .col input, .contacto .col textarea{
     display: block;
@@ -684,12 +692,13 @@ html{
 .contacto .col .info{
      
     position: absolute;
-    top: 40%;
+    top: 47%;
     background-color: #252A2E;
-    padding: 20px;
+    padding: 46px;
     max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
 }
 .contacto .col .info ul{
     
@@ -702,7 +711,7 @@ html{
 .contacto .col .info ul li i{
     color: #1CB698;
     display: inline-block;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
 }
 footer{
     background-color: #252A2E;
